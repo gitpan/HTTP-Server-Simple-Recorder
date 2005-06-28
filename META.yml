@@ -1,0 +1,15 @@
+name: HTTP-Server-Simple-Recorder
+version: 0.01
+abstract: Mixin to record HTTP::Server::Simple's sockets
+author: David Glasser <glasser@bestpractical.com>
+license: perl
+distribution_type: module
+requires:
+  Test::More: 0
+  Test::HTTP::Server::Simple: 0
+  IO::Tee: 0
+  HTTP::Server::Simple: 0.10
+no_index:
+  directory:
+    - inc
+generated_by: Module::Install version 0.36
